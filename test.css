@@ -10,7 +10,7 @@ body,html {
 }
 
 .bgIcon {
-    background-image: url('../assets/images/background.svg');
+    background-image: url('/public/assets/images/background.svg');
     background-size: cover;
     overflow: hidden;
 }
