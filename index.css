@@ -9,8 +9,13 @@ body,html {
     background-color: #fee440;
 }
 
-.bgIcon {
-    background-image: url('../assets/images/background.svg');
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.bg-icon {
+    background-image: url('public/assets/images/background.svg');
     background-size: cover;
     overflow: hidden;
 }
@@ -18,11 +23,12 @@ body,html {
 .keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
-    align-items: center;
+    min-height: 30vh;
+    align-items: end;
     justify-content: center;
+    margin-top: 30px;
 }
-  
+
 .key {
     border: .4rem solid black;
     border-radius: .5rem;
@@ -36,21 +42,20 @@ body,html {
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .5rem black;
 }
-  
+
 .playing {
     transform: scale(1.1);
     border-color: #ffc600;
     box-shadow: 0 0 1rem #ffc600;
 }
-  
-kbd {
-    display: block;
-    font-size: 4rem;
-}
-  
+
 .sound {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
+}
+
+#space {
+    padding-inline: 10rem;
 }
