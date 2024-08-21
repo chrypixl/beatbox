@@ -25,6 +25,9 @@ kbd {
 
 .tje-icon {
     display: flex;
+    position: fixed;
+    bottom: 15rem;
+    left: 5rem;
 }
 
 .keys {
