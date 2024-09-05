@@ -22,10 +22,10 @@ function initAudioContext() {
                 const audioUrl = URL.createObjectURL(audioBlob);
                 console.log('Recorded audio URL:', audioUrl);
 
-                // Change here to run whatever "save" functions you'd like
+                // Change "save" functions here
                 document.querySelector('#playback').dataset.audio = JSON.stringify(audioUrl);
                 document.querySelector('#playback').disabled = false;
-                // Change here to run whatever "save" functions you'd like
+                // Change "save" functions here
 
                 recordedChunks = [];
             } else {
